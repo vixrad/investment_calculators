@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #333;
+}
+
+.chart-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+canvas {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.error {
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .btn {
+        padding: 16px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
